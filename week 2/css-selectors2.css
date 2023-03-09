@@ -1,0 +1,23 @@
+body {font-family: cursive;}
+li:first-child {
+    color: red
+}
+ul:first-child {
+    background-color: yellow;
+}
+li:last-child {
+    color: pink;
+}
+li:nth-child(even) {
+    font-size: x-large;
+}
+li:nth-child(odd) {
+    color: aqua;
+}
+li:nth-child(3) {
+    font-family: 'Times New Roman', Times, serif;
+}
+li:nth-child(3n+2) {
+    background-color: darkblue;
+}
+article:only-child {background-color: blue;}
