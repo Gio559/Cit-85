@@ -1,0 +1,37 @@
+html {
+    font-family:serif;
+}
+#one {
+    font-family: sans-serif;
+}
+#google {
+    font-family: 'Playfair Display', serif;
+}
+h1{
+    font-weight: bold;
+}
+p{
+    font-weight:700
+}
+#up{
+    text-transform: uppercase;
+    font-style: italic;
+}
+#space{
+   letter-spacing: 2rem;
+}
+h1{
+    text-shadow: 1px 3px 5px grey;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: line-through;
+}
+div{
+    text-decoration: line-through;
+}
+#indent{
+    text-indent: 20px;
+}
