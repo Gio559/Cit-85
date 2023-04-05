@@ -1,0 +1,22 @@
+html {
+    background-color: blue;
+}
+body {
+    width: 60%;
+    margin: 0 auto;
+    background-color: rgb(0, 255, 0);
+    border: 5px solid black;
+}
+
+img{
+    border-radius: 100%;
+    border: 10px ridge gold;
+    display: block;
+    margin: 0 auto;
+}
+h1{
+    color: aqua;
+}
+h2{
+    color: rgb(255, 0, 0);
+}
