@@ -1,0 +1,21 @@
+html{
+    border: 2px solid red;
+    
+}
+body{
+    display: flex;
+    flex-flow: row wrap;
+}
+div{
+    width: 150px;
+    height: 75px;
+ background-color: rgb(255, 60, 0);
+border: 2px solid black;
+margin: 2px;
+text-align: center;
+align-content: flex-start;
+flex-grow: 1;
+}
+.two{
+    flex-grow: 2;
+}
