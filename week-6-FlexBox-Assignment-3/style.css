@@ -1,0 +1,59 @@
+html{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    border: 2px dashed red;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+div{
+    height: 150px;
+    border: 1px solid black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font: 2rem sans-serif;
+
+}
+.redorange {
+    flex-basis: 100%;
+    background-color:  tomato;
+    border: 1px solid black;
+
+}
+
+.blue {
+    background-color: powderblue;
+    border: 1px solid black;
+    flex-basis: 60%;
+
+}
+
+.green {
+    background-color: palegreen;
+    border: 1px solid black;
+ flex-basis: 40%;
+}
+
+.yellow{
+    background-color: yellow;;
+    border: 1px solid black;
+    width: 50%;
+}
+.purple {
+    background-color: mediumpurple;
+    border: 1px solid black;
+    width: 50%;
+}
