@@ -1,0 +1,47 @@
+html{
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    padding: 0;
+    border: 5px solid red;
+    margin: 0 auto;
+}
+
+div {
+    height: 150px;
+}
+
+body {
+    width: 900px;
+}
+
+.one {
+    width: 60%;
+    background-color: #003476;
+}
+
+.two {
+    width: 40%;
+    background-color: #0062d2;
+}
+
+.three, .four, .five {
+    width: 33.33%;
+}
+
+
+.three {
+    background-color: #b4d2f7;
+}
+
+.four {
+    background-color: #d5dfef;
+}
+
+.five {
+    background-color: #dfe1e5;
+}
