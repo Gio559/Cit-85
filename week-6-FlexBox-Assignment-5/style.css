@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-flow: row wrap;
+    /* formatting */
+    width: 880px;
+    padding: 0;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 0;
+    margin: 0 auto;
+}
+.one{
+    background-color: #003476;
+    height: 304px;
+    width: 150px;
+    color: white;
+}
+.two{
+    background-color: #0062d2;
+height: 150px;
+    color: white;
+  
+}
+.three{
+    background-color: #b4d2f7;
+  height: 150px;
+    color: white;
+}
+.c4{
+    box-sizing: border-box;
+width: 50%;
+border: 2px solid red;
+height: 100%;
+}
