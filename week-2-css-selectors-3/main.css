@@ -1,0 +1,8 @@
+P::first-letter {
+    font-family: cursive;
+    font-size: 40px;
+}
+P::first-line {
+    color: blue;
+    font-weight: 800;
+}
