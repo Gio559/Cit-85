@@ -1,0 +1,13 @@
+div p {
+    color: royalblue;
+}
+div > p {
+    font-family: cursive;
+font-size: xx-small ;
+}
+div ~ p {
+    background-color: crimson;
+}
+div + p {
+font-size: x-large;
+}
