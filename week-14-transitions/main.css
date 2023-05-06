@@ -1,0 +1,20 @@
+div {
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gold;
+}
+div:hover{
+    color: red;
+    background-color: aqua;
+}
+.trans{
+    transition-property: all;
+    transition-duration: 900ms;
+    transition-timing-function:ease-in-out;
+}
